@@ -27,10 +27,11 @@ const Layout = ({ children }) => {
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
       <Footer
-        facebook=""
-        instagram=""
-        twitter=""
-        github=""
+        facebookURL="/"
+        instagramURL="/"
+        twitterURL="/"
+        linkedinURL="/"
+        githubURL="/"
         company="Company"
         developer="Craig Edney"
         developerLink="https://www.craigedney.ai/"
